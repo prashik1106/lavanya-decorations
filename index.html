@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lavanya Decorations - Event Decor Services</title>
+    <meta name="description" content="Lavanya Decorations offers elegant wedding, corporate, and birthday event decorations in [Your City]. Book now for creative setups!">
+    <meta name="keywords" content="event decorations, wedding decor, corporate events, birthday decorations, Lavanya Decorations">
+    <meta name="author" content="Lavanya Decorations">
+    <meta name="robots" content="index, follow">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Embedded CSS (simulated Tailwind CLI output with custom styles) */
+        * { font-family: 'Poppins', sans-serif; }
+        .bg-gray-100 { background-color: #f3f4f6; }
+        .bg-gray-200 { background-color: #e5e7eb; }
+        .bg-purple-100 { background-color: #f3e8ff; }
+        .bg-purple-700 { background-color: #6b21a8; }
+        .bg-purple-800 { background-color: #581c87; }
+        .bg-white { background-color: #ffffff; }
+        .text-white { color: #ffffff; }
+        .text-yellow-300 { color: #fde047; }
+        .text-purple-700 { color: #6b21a8; }
+        .text-lg { font-size: 1.125rem; line-height: 1.75rem; }
+        .text-xl { font-size: 1.25rem; line-height: 1.75rem; }
+        .text-2xl { font-size: 1.5rem; line-height: 2rem; }
+        .text-3xl { font-size: 1.875rem; line-height: 2.25rem; }
+        .text-4xl { font-size: 2.25rem; line-height: 2.5rem; }
+        .font-bold { font-weight: 700; }
+        .font-semibold { font-weight: 600; }
+        .p-3 { padding: 0.75rem; }
+        .p-4 { padding: 1rem; }
+        .p-6 { padding: 1.5rem; }
+        .py-4 { padding-top: 1rem; padding-bottom: 1rem; }
+        .py-16 { padding-top: 4rem; padding-bottom: 4rem; }
+        .py-20 { padding-top: 5rem; padding-bottom: 5rem; }
+        .px-6 { padding-left: 1.5rem; padding-right: 1.5rem; }
+        .mb-2 { margin-bottom: 0.5rem; }
+        .mb-4 { margin-bottom: 1rem; }
+        .mb-6 { margin-bottom: 1.5rem; }
+        .mb-8 { margin-bottom: 2rem; }
+        .mt-2 { margin-top: 0.5rem; }
+        .mt-4 { margin-top: 1rem; }
+        .mx-auto { margin-left: auto; margin-right: auto; }
+        .max-w-md { max-width: 28rem; }
+        .max-w-2xl { max-width: 42rem; }
+        .max-w-4xl { max-width: 56rem; }
+        .w-full { width: 100%; }
+        .flex { display: flex; }
+        .space-x-6 > :not([hidden]) ~ :not([hidden]) { margin-left: 1.5rem; }
+        .justify-between { justify-content: space-between; }
+        .justify-center { justify-content: center; }
+        .items-center { align-items: center; }
+        .grid { display: grid; }
+        .grid-cols-1 { grid-template-columns: repeat(1, minmax(0, 1fr)); }
+        .gap-4 { gap: 1rem; }
+        .gap-8 { gap: 2rem; }
+        .rounded { border-radius: 0.25rem; }
+        .border { border-width: 1px; border-color: #d1d5db; }
+        .shadow { box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06); }
+        .text-center { text-align: center; }
+        .hover\:bg-purple-800:hover { background-color: #581c87; }
+        .hover\:text-yellow-300:hover { color: #fde047; }
+        .sticky { position: sticky; }
+        .top-0 { top: 0; }
+        .z-10 { z-index: 10; }
+        @media (min-width: 640px) {
+            .sm\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+        }
+        @media (min-width: 768px) {
+            .md\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+            .md\:flex { display: flex; }
+            .md\:flex-col { flex-direction: column; }
+            .md\:flex-row { flex-direction: row; }
+        }
+        /* Creative Styles */
+        .home-gradient { background: linear-gradient(135deg, #f3e8ff 0%, #d8b4fe 100%); }
+        .cta-btn { transition: transform 0.3s ease, box-shadow 0.3s ease; }
+        .cta-btn:hover { transform: translateY(-3px); box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); }
+        .about-border { border-left: 4px solid #6b21a8; padding-left: 1rem; }
+        .service-card { transition: transform 0.3s ease, box-shadow 0.3s ease; }
+        .service-card:hover { transform: translateY(-5px); box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); }
+        .gallery-img { width: 100%; height: 300px; object-fit: cover; transition: transform 0.3s ease; }
+        .gallery-img:hover { transform: scale(1.1); }
+        .contact-bg { background: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"%3E%3Cpath fill="%236b21a8" fill-opacity="0.1" d="M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.209 0 4-1.791 4-4s-1.791-4-4-4-4 1.791-4 4 1.791 4 4 4zm28-65c2.209 0 4-1.791 4-4s-1.791-4-4-4-4 1.791-4 4 1.791 4 4 4zm23-11c2.209 0 4-1.791 4-4s-1.791-4-4-4-4 1.791-4 4 1.791 4 4 4zm-6 83c2.209 0 4-1.791 4-4s-1.791-4-4-4-4 1.791-4 4 1.791 4 4 4zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.209 0 4-1.791 4-4s-1.791-4-4-4-4 1.791-4 4 1.791 4 4 4z"/%3E%3C/svg%3E'); }
+        .form-input { transition: border-color 0.3s ease, box-shadow 0.3s ease; }
+        .form-input:focus { border-color: #6b21a8; box-shadow: 0 0 8px rgba(107, 33, 168, 0.3); outline: none; }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <!-- Navigation -->
+    <nav class="bg-purple-700 text-white p-4 sticky top-0 z-10">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Lavanya Decorations</h1>
+            <ul class="flex space-x-6">
+                <li><a href="#home" class="hover:text-yellow-300">Home</a></li>
+                <li><a href="#about" class="hover:text-yellow-300">About</a></li>
+                <li><a href="#services" class="hover:text-yellow-300">Services</a></li>
+                <li><a href="#gallery" class="hover:text-yellow-300">Gallery</a></li>
+                <li><a href="#contact" class="hover:text-yellow-300">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home-gradient py-20 text-center">
+        <div class="container mx-auto">
+            <h1 class="text-4xl font-bold mb-4">Create Unforgettable Moments with Lavanya Decorations</h1>
+            <p class="text-lg mb-6 max-w-2xl mx-auto">
+                At Lavanya Decorations, we specialize in transforming your events into magical experiences. From dreamy weddings to vibrant birthdays and professional corporate gatherings, our creative designs and meticulous planning ensure every detail shines. Let us bring your vision to life with elegance and style.
+            </p>
+            <a href="#contact" class="bg-purple-700 text-white px-6 py-3 rounded cta-btn">Book Your Event Now</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16">
+        <div class="container mx-auto max-w-4xl">
+            <h2 class="text-3xl font-bold text-center mb-8">About Lavanya Decorations</h2>
+            <div class="md:flex md:flex-row gap-8">
+                <div class="md:w-1/2 p-4 about-border">
+                    <p class="text-lg">
+                        Founded with a passion for creativity, Lavanya Decorations has been crafting stunning event setups for over five years. Our team of experienced designers and planners works closely with clients to create personalized decor that reflects their unique style and story.
+                    </p>
+ fireEvent                    </div>
+                <div class="md:w-1/2 p-4 about-border">
+                    <p class="text-lg">
+                        Whether it’s an intimate birthday celebration or a grand wedding, we pride ourselves on our attention to detail, quality materials, and innovative designs. Based in Mumbai, we serve clients across the region, turning dreams into reality one event at a time.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="bg-gray-200 py-16">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-8">Our Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded shadow service-card">
+                    <span class="text-3xl mb-2 block">💍</span>
+                    <h3 class="text-xl font-semibold mb-2">Wedding Decor</h3>
+                    <p>Elegant and personalized decorations for your special day.</p>
+                </div>
+                <div class="bg-white p-6 rounded shadow service-card">
+                    <span class="text-3xl mb-2 block">💼</span>
+                    <h3 class="text-xl font-semibold mb-2">Corporate Events</h3>
+                    <p>Professional setups for conferences and corporate gatherings.</p>
+                </div>
+                <div class="bg-white p-6 rounded shadow service-card">
+                    <span class="text-3xl mb-2 block">🎉</span>
+                    <h3 class="text-xl font-semibold mb-2">Birthday Parties</h3>
+                    <p>Fun and vibrant themes for unforgettable celebrations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-16">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-8">Gallery</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                <img src="https://i.ibb.co/XkMJ521F/babyshower.jpg" alt="Elegant wedding decoration by Lavanya Decorations" class="gallery-img rounded">
+                <img src="https://i.ibb.co/XG43PXJ/CO2.jpg" alt="Professional corporate event setup by Lavanya Decorations" class="gallery-img rounded">
+                <img src="https://i.ibb.co/CpxdfJX8/wedding.jpg" alt="Vibrant birthday party decor by Lavanya Decorations" class="gallery-img rounded">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-bg py-16">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-6">Get in Touch</h2>
+            <p class="text-lg mb-4 max-w-2xl mx-auto">
+                Planning an event? Let Lavanya Decorations make it unforgettable. Contact us today to discuss your vision, request a quote, or schedule a consultation.
+            </p>
+            <p class="text-lg mb-6">
+                📞 Call us: +91 9156760930<br>
+                💬 WhatsApp: <a href="https://wa.me/9156760930" class="text-purple-700">Message us</a><br>
+                📧 Email: patilbhupendra084@gmail.com<br>
+                🕒 Hours: Monday–Saturday, 9 AM–6 PM
+            </p>
+            <form action="https://formspree.io/f/mjkweyya" method="POST" class="max-w-md mx-auto">
+                <input type="text" name="name" placeholder="Your Name" class="w-full p-3 mb-4 rounded border form-input" required>
+                <input type="email" name="email" placeholder="Your Email" class="w-full p-3 mb-4 rounded border form-input" required>
+                <textarea name="message" placeholder="Your Message" class="w-full p-3 mb-4 rounded border form-input" rows="4" required></textarea>
+                <button type="submit" class="bg-purple-700 text-white px-6 py-3 rounded hover:bg-purple-800 cta-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-purple-700 text-white py-4 text-center">
+        <p>© 2025 Lavanya Decorations(BUPENDRA PATIL ENTERPRISES). All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
